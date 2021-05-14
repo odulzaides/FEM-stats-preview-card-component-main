@@ -1,0 +1,139 @@
+.stats-preview-card {
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.stats-section {
+  text-align: center;
+  margin: 1rem 3rem;
+}
+
+.stats-preview-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #aa5cdb;
+  border-radius: 6px 6px 0 0;
+  max-height: 40vh;
+}
+
+img {
+  width: 100%;
+  opacity: 0.3;
+  border-radius: 10px;
+}
+
+.stats-preview-card {
+  background-color: #1b1938;
+}
+
+.stats-heading-caption {
+  color: white;
+  font-weight: 700;
+}
+
+.stats-heading-caption > span {
+  color: #aa5cdb;
+}
+
+.stats-container {
+  margin-top: 3rem;
+  margin-bottom: .5rem;
+}
+
+.stats-heading-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0;
+  font-size: .8rem;
+  line-height: 1.8;
+}
+
+.stat {
+  margin: 1rem;
+}
+
+.stat-heading {
+  color: white;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.stat-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: .8rem;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 940px) {
+  .stats-preview-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding: 0;
+    margin: 2rem;
+    border-radius: 10px;
+  }
+  .stats-preview-image {
+    border-radius: 0 10px 10px 0;
+    margin: 0;
+    padding: 0;
+  }
+  .stats-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 2rem;
+  }
+  .stats-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .stat {
+    margin: 1rem;
+  }
+  .stats-heading-text {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .stats-preview-image {
+    max-height: 80vh;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  background-color: #090b1a;
+  padding-bottom: 5rem;
+}

@@ -1,0 +1,29 @@
+@media screen and (min-width:940px) {
+    .stats-preview-card {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0;
+        margin: 2rem;
+        border-radius: 10px;
+    }
+    .stats-preview-image {
+        border-radius: 0 10px 10px 0;
+        margin: 0;
+        padding: 0;
+    }
+    .stats-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+    .stats-container {
+        display: flex;
+    }
+    .stat {
+        margin: 1rem;
+    }
+    .stats-heading-text {
+        width: 60%;
+    }
+}

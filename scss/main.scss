@@ -1,0 +1,11 @@
+@import './variables/variables';
+@import './compnents/components';
+@import './media-queries/desktop.scss';
+@import './media-queries/horiz-mobile';
+@import './compnents/footer';
+body {
+    font-family: $LexandDeca;
+    font-size: 15px;
+    background-color: $veryDarkBlue;
+    padding-bottom: 5rem;
+}
