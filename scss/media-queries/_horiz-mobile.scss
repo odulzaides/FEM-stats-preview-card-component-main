@@ -1,5 +1,65 @@
-@media screen and (min-width:500px) {
+@media only screen and (orientation:landscape) {
+    // TODO Fix ipad media query
+    html {
+        height: 100%;
+    }
+    .stats-preview-card {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding: 0;
+        margin: 0.5rem 5rem;
+        border-radius: 10px;
+        width: 95%;
+        height: 550px;
+    }
+    .stats-container {
+        height: 10px;
+        display: flex;
+        width: 30%;
+        padding: 0 0;
+        margin: 0;
+    }
+    .stats-section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: evenly;
+        align-items: center;
+        text-align: left;
+        margin: 0;
+    }
+    .stats-body {
+        width: 70%;
+        padding: 0;
+        margin: 0;
+        margin-top: 4.5rem;
+    }
+    .stats-heading-caption {
+        font-size: 2.4rem;
+    }
+    .stat-heading {
+        margin: 5.5rem 1rem 0rem auto;
+    }
+    .stats-heading-text {
+        text-align: left;
+        line-height: 1.5;
+        width: 85%;
+        font-size: 15px;
+    }
+    .stat {
+        margin: 0 3.5rem 3.5rem 0;
+    }
     .stats-preview-image {
-        max-height: 80vh;
+        flex: 1;
+        overflow: hidden;
+        border-radius: 0 10px 10px 0;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        height: 100%;
+    }
+    .attribution {
+        margin-top: 1rem;
     }
 }

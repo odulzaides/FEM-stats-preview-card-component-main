@@ -3,9 +3,16 @@
 @import './media-queries/desktop.scss';
 @import './media-queries/horiz-mobile';
 @import './compnents/footer';
+html,
 body {
     font-family: $LexandDeca;
     font-size: 15px;
     background-color: $veryDarkBlue;
-    padding-bottom: 5rem;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
